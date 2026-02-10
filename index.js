@@ -1,6 +1,7 @@
 require("dotenv").config();
 const fs = require('node:fs');
 const path = require('node:path');
+const express = require('express');
 const { Client, Collection, GatewayIntentBits } = require('discord.js');
 
 // ------------------ Discord Bot Setup ------------------ //
