@@ -6,7 +6,7 @@
   "scripts": {
     "deploy:commands": "node bot/deploy-commands.js",
     "start:web": "node api/api.js",
-    "start:worker": "npm run deploy:commands && node bot/bot.js"
+    "start:worker": "npm run deploy:commands && node bot/botManager.js"
   },
   "keywords": [],
   "author": "",
